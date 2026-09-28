@@ -1,0 +1,14 @@
+# Local dependencies, original game resources, build output and release packages.
+/p5r-build/vendor/
+/p5r-build/input/
+/p5r-build/temp/
+/p5r-build/dist/
+
+# Python caches in the script directories.
+/p5r-build/scripts/__pycache__/
+/p5r-build/scripts/legacy/__pycache__/
+
+# Runtime files retain the required Mod layout and are shipped through Releases.
+/p5rpc.skillrename/Data/
+/p5rpc.skillrename/SkillRename.dll
+/p5rpc.skillrename/CriFs.V2.Hook.Interfaces.dll
